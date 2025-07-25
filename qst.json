@@ -1,0 +1,1963 @@
+{ 
+  "general": {
+    "greeting": {
+      "questions": [
+        "Bonjour",
+        "Salut",
+        "Bonsoir",
+        "Hi",
+        "Hiiii",
+        "Coucou",
+        "Yo",
+        "Bonjour à vous",
+        "Bnjr",
+        "slt",
+        "hello",
+        "good morning",
+        "Salam",
+        "Bonne journée",
+        "Salut tout le monde",
+        "Hey",
+        "Comment ça va ?",
+        "Ça roule ?",
+        "Bien le bonjour",
+        "Plaisir de vous revoir",
+        "Enchanté",
+        "Comment allez-vous ?",
+        "Je vous salue",
+        "Salutations",
+        "Bonne soirée",
+        "Bon après-midi"
+      ],
+      "responses": [
+        "Bonjour, comment puis-je vous aider ? 😊",
+        "Salut ! N'hésitez pas à me poser une question.",
+        "Bonsoir ! Je suis là pour répondre à vos questions.",
+        "Bienvenue à l'assistant de la Présidence de l'UCA.",
+        "Je suis votre assistant virtuel, posez-moi n'importe quelle question.",
+        "Salam alaykoum ! Comment puis-vous vous aider aujourd'hui ?",
+        "Ravi de vous aider ! Que puis-je faire pour vous ?",
+        "Bonjour ! Je suis prêt à vous assister."
+      ]
+    },
+    "bot_identity": {
+      "questions": [
+        "Tu es qui ?",
+        "Qui es-tu ?",
+        "C'est quoi ton rôle ?",
+        "Tu fais quoi ?",
+        "Tu es un assistant de qui ?",
+        "Quel est ton nom ?",
+        "Peux-tu te présenter ?",
+        "On se connaît ?",
+        "T'es un robot ou un humain ?",
+        "C'est quoi ta mission ?",
+        "Comment t'appelles-tu ?",
+        "Qui t'a créé ?",
+        "Quel est ton objectif ?",
+        "Es-tu une IA ?",
+        "Parle-moi de toi",
+        "Dis-moi qui tu es",
+        "Quel est ton but ?",
+        "Tu es un programme ?",
+        "Qui se cache derrière toi ?"
+      ],
+      "responses": [
+        "Je suis un chatbot conçu pour répondre à vos questions fréquentes sur l'Université Cadi Ayyad.",
+        "Je suis l'assistant virtuel de la Présidence de l'UCA.",
+        "Je suis là pour vous aider à trouver des informations utiles sur l'université.",
+        "Mon rôle est de vous guider dans vos démarches à l'UCA.",
+        "Je m'appelle UCAssistant, à votre service !",
+        "Je suis un programme informatique, pas un humain.",
+        "J'ai été développé pour vous assister avec les informations de l'UCA."
+      ]
+    },
+    "availability": {
+      "questions": [
+        "Tu es disponible quand ?",
+        "Quand puis-je te parler ?",
+        "Tu travailles à quelle heure ?",
+        "Tu es là maintenant ?",
+        "Horaires d'ouverture ?",
+        "Dispo 24/7 ?",
+        "Je peux te contacter la nuit ?",
+        "Fermé le weekend ?",
+        "À quelle heure tu commences ?",
+        "Jusqu'à quelle heure tu travailles ?",
+        "Es-tu toujours en ligne ?",
+        "Puis-je te poser une question à tout moment ?",
+        "Tes services sont-ils continus ?"
+      ],
+      "responses": [
+        "Je suis disponible 24h/24, 7j/7. N'hésitez pas à poser votre question.",
+        "Toujours là pour vous aider ! 😊",
+        "Service permanent, même les jours fériés !",
+        "Je suis un assistant virtuel, donc je suis toujours en ligne pour vous servir."
+      ]
+    },
+    "help_request": {
+      "questions": [
+        "Tu peux m'aider ?",
+        "Je veux poser une question",
+        "J'ai besoin d'aide",
+        "Aide-moi",
+        "Je cherche une information",
+        "Besoin d'assistance",
+        "Support technique",
+        "Je suis perdu",
+        "Guide-moi",
+        "Comment puis-je obtenir de l'aide ?",
+        "J'ai une question",
+        "Je ne trouve pas ce que je cherche",
+        "Peux-tu me guider ?",
+        "Je suis bloqué",
+        "Donne-moi un coup de main",
+        "Je voudrais des informations"
+      ],
+      "responses": [
+        "Bien sûr ! Dites-moi ce que vous cherchez.",
+        "Je suis là pour ça. Quelle est votre question ?",
+        "Posez votre question et je vous réponds au mieux.",
+        "Comment puis-je vous aider aujourd'hui ?",
+        "Je suis à votre disposition. Que souhaitez-vous savoir ?"
+      ]
+    },
+    "language": {
+      "questions": [
+        "Tu parles français ?",
+        "Parles-tu arabe ?",
+        "Tu comprends l'anglais ?",
+        "Quelle langue tu parles ?",
+        "Vous maîtrisez quelles langues ?",
+        "Est-ce que tu connais l'espagnol ?",
+        "Langues disponibles ?",
+        "Tu peux répondre en darija ?",
+        "Français seulement ?",
+        "Disponible en anglais ?",
+        "En quelle langue puis-je te parler ?",
+        "Quelles sont tes langues de support ?"
+      ],
+      "responses": [
+        "Je parle principalement français.",
+        "Posez votre question en français et je vous répondrai avec plaisir.",
+        "Actuellement, je ne comprends que le français. Une version multilingue est prévue bientôt !",
+        "Ma langue principale est le français."
+      ]
+    },
+    "thank_you": {
+      "questions": [
+        "Merci",
+        "Merci beaucoup",
+        "Merci pour votre aide",
+        "C'est gentil",
+        "Je vous remercie",
+        "Merci bien",
+        "Merci pour l'info",
+        "Merci pour la réponse",
+        "Merci de votre aide",
+        "Merci infiniment",
+        "Grand merci"
+      ],
+      "responses": [
+        "De rien ! N'hésitez pas si vous avez d'autres questions.",
+        "Avec plaisir ! Je suis là pour ça.",
+        "Pas de problème ! Content d'avoir pu vous aider.",
+        "Je vous en prie !",
+        "C'est mon rôle de vous assister."
+      ]
+    },
+    "goodbye": {
+      "questions": [
+        "Au revoir",
+        "À bientôt",
+        "Bye",
+        "Ciao",
+        "Bonne journée",
+        "Bonne soirée",
+        "À plus tard",
+        "Je dois y aller",
+        "Adieu",
+        "Salut",
+        "À la prochaine"
+      ],
+      "responses": [
+        "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions.",
+        "À bientôt ! Bonne journée.",
+        "Ciao ! Prenez soin de vous.",
+        "Au plaisir de vous revoir !",
+        "Bonne continuation !"
+      ]
+    }
+  },
+  "email_academique": {
+    "probleme_general": {
+      "questions": [
+        "J'ai un problème avec mon mail",
+        "J’ai un souci avec mon email universitaire",
+        "Problème email étudiant",
+        "Mail bug",
+        "email uca ne marche pas",
+        "mon mail marche pas",
+        "je ne peux pas accéder à mon mail",
+        "email académique ne fonctionne pas"
+      ],
+      "responses": [
+        "Peux-tu préciser ton problème :\n- Activation du compte ?\n- Mot de passe oublié ?\n- Envoi/réception bloquée ?\n- Connexion mobile ?\n- Autre ?\nDis‑moi exactement ce que tu rencontres."
+      ]
+    },
+    "activation_compte": {
+      "questions": [
+        "Comment activer mon email académique (@uca.ac.ma) ?",
+        "Je suis nouvel étudiant, comment obtenir mon mail UCA ?",
+        "Procédure d'activation du mail universitaire",
+        "Où récupérer mon adresse académique UCA ?",
+        "Première connexion à l'email UCA : comment faire ?",
+        "Activer mon compte de messagerie universitaire",
+        "activation",
+        "activer",
+        "nouvel étudiant",
+        "première connexion",
+        "code massar",
+        "e-student",
+        "e student",
+        "compte neuf",
+        "mail étudiant",
+        "email universitaire",
+        "activer mail uca",
+        "activer adresse académique",
+        "email non activé",
+        "problème activation mail"
+      ],
+      "responses": [
+        "Rends-toi sur e-student.uca.ma, clique sur 'Récupérez votre email académique', renseigne ton CODE MASSAR/CNE et ta date de naissance pour obtenir ton adresse @uca.ac.ma et ton mot de passe provisoire."
+      ]
+    },
+    "connexion": {
+      "questions": [
+        "Comment me connecter à mon mail académique ?",
+        "Où se connecter à l'adresse universitaire ?",
+        "Je veux accéder à ma messagerie UCA",
+        "Connexion email étudiant",
+        "Connexion à Gmail UCA",
+        "Je n'arrive pas à ouvrir mon mail universitaire",
+        "Je ne peux pas me connecter à mon email UCA",
+        "connexion",
+        "mail.uca.ma",
+        "gmail uca",
+        "ouvrir boîte mail",
+        "accès email académique",
+        "problème de connexion"
+      ],
+      "responses": [
+        "Va sur mail.uca.ma ou https://mail.google.com, puis connecte-toi avec ton adresse @uca.ac.ma et ton mot de passe."
+      ]
+    },
+    "mot_de_passe_oublie": {
+      "questions": [
+        "J'ai oublié mon mot de passe, que faire ?",
+        "Mot de passe perdu pour mon mail UCA",
+        "Impossible de me connecter à mon mail",
+        "Comment réinitialiser mon mot de passe ?",
+        "Réinitialisation de mot de passe UCA",
+        "pass oublié",
+        "reset password",
+        "motdepasse oublié",
+        "password perdu"
+      ],
+      "responses": [
+        "Sur mail.uca.ma ou via Gmail, clique sur 'Mot de passe oublié', puis suis les étapes pour en créer un nouveau."
+      ]
+    },
+    "non_reception_identifiants": {
+      "questions": [
+        "Je n'ai pas reçu mes identifiants pour l'email académique",
+        "Je ne trouve pas mon login/mot de passe UCA",
+        "Pas d'accès mail reçu",
+        "identifiants non reçus",
+        "email non reçu",
+        "aucune info reçue"
+      ],
+      "responses": [
+        "Vérifie d'abord dans les spams de ton email personnel. Si tu n'as toujours rien reçu, contacte ton secrétariat ou le support UCA."
+      ]
+    },
+    "usage_mobile": {
+      "questions": [
+        "Comment configurer mon email académique sur smartphone ?",
+        "Ajouter mail UCA sur Gmail mobile",
+        "Mail académique sur iPhone/Android",
+        "Utiliser mon adresse université sur téléphone",
+        "mail étudiant sur téléphone",
+        "email académique mobile",
+        "configurer mail sur téléphone"
+      ],
+      "responses": [
+        "Dans l'application Gmail ou Mail, ajoute un nouveau compte, saisis ton adresse @uca.ac.ma et suis les étapes de configuration."
+      ]
+    },
+    "envoi_reception": {
+      "questions": [
+        "Je ne reçois pas les messages ou je n'arrive pas à envoyer des emails",
+        "Problème de réception ou d'envoi",
+        "Message non délivré depuis le mail étudiant",
+        "mails non reçus",
+        "problème envoi",
+        "reception email",
+        "quota mail"
+      ],
+      "responses": [
+        "Vérifie ton quota de stockage, les filtres anti-spam, et ton mot de passe. Si le problème persiste, contacte le support UCA."
+      ]
+    },
+    "importance_email": {
+      "questions": [
+        "Pourquoi l'email académique est important ?",
+        "À quoi sert mon mail universitaire ?",
+        "Est-ce que le mail étudiant est obligatoire ?",
+        "Utilité de l'adresse @uca.ac.ma",
+        "email académique obligatoire",
+        "email étudiant utile ?"
+      ],
+      "responses": [
+        "Il sert à recevoir tes notes, planning, annonces, et à accéder aux plateformes UCA (classroom, Moodle, ENT, etc.)."
+      ]
+    },
+    "post_diplome": {
+      "questions": [
+        "Est-ce que je garde mon mail UCA après le diplôme ?",
+        "Mon compte UCA reste-t-il actif après les études ?",
+        "Mail étudiant après la soutenance",
+        "conserver mail universitaire",
+        "email après diplôme"
+      ],
+      "responses": [
+        "En général, ton compte est désactivé après l'obtention de ton diplôme. Pense à sauvegarder tes données à l'avance."
+      ]
+    }
+  },
+  "uca_information": {
+    "definition_uca": {
+      "questions": [
+        "C'est quoi l'UCA ?",
+        "Qu'est-ce que l'Université Cadi Ayyad ?",
+        "Présentation UCA",
+        "Que signifie UCA ?",
+        "définition université cadi ayyad",
+        "uca",
+        "université cadi ayyad",
+        "uca définition",
+        "uca maroc",
+        "uca marrakech"
+      ],
+      "responses": [
+        "L'Université Cadi Ayyad (UCA) est une université publique créée en 1978, qui fédère 13 à 15 établissements situés principalement à Marrakech, Safi, Essaouira et El Kelaâ des Sraghna, et accueille plus de 120 000 étudiants dans diverses disciplines scientifiques, humanités, droit, médecine, ingénierie, etc."
+      ]
+    },
+    "president_uca": {
+      "questions": [
+        "Qui est le président de l'UCA ?",
+        "Président université cadi ayyad",
+        "qui dirige l'UCA ?",
+        "nom du président uca",
+        "pr président uca",
+        "president uca maroc",
+        "quel est le président de l'uca"
+      ],
+      "responses": [
+        "Le président actuel de l'Université Cadi Ayyad est le Professeur Belaid Bougadir, investi le 1er décembre 2023 suite à sa nomination par le gouvernement le 26 octobre 2023."
+      ]
+    },
+    "etablissements": {
+      "questions": [
+        "Quels établissements fait partie de l'UCA ?",
+        "Liste des facultés UCA",
+        "etablissements uca",
+        "campus uca",
+        "facultés cadi ayyad",
+        "institutions université cadi ayyad",
+        "fssm fsjes fmpm",
+        "uca safi essaouira kelâa"
+      ],
+      "responses": [
+        "L'Université Cadi Ayyad compte 15 établissements universitaires dont 9 sont situés à Marrakech, 3 à Safi, 1 à Essaouira et 2 à Kelaa des Sraghna."
+      ]
+    },
+    "chiffres_cles": {
+      "questions": [
+        "Combien d'étudiants à l'UCA ?",
+        "Effectif uca",
+        "chiffres clés uca",
+        "nombre étudiants cadi ayyad",
+        "statistiques uca",
+        "120 000 étudiants uca"
+      ],
+      "responses": [
+        "L'Université Cadi Ayyad compte plus de 120 000 étudiants, environ 1 500 enseignants-chercheurs et près de 800 personnes administratives, à travers ses 13-15 établissements."
+      ]
+    },
+    "mission_objet": {
+      "questions": [
+        "Quelle est la mission de l'UCA ?",
+        "Objectifs université cadi ayyad",
+        "raison d'être UCA",
+        "mission uca",
+        "visée institutionnelle uca",
+        "uca recherche enseignement"
+      ],
+      "responses": [
+        "L'UCA a pour missions de former, d'innover et de contribuer au développement territorial et national via la formation, la recherche, l'innovation, l'internationalisation et le développement durable. Elle vise aussi à renforcer les liens académiques et socio-économiques régionaux."
+      ]
+    }
+  },
+  "wifi_campus_connecte": {
+    "probleme_general": {
+      "questions": [
+        "J'ai un problème avec le Wi-Fi du campus",
+        "Je n'arrive pas à me connecter au Wi-Fi universitaire",
+        "Problème connexion wifi UCA",
+        "Wi-Fi campus ne fonctionne pas",
+        "Wi-Fi ne marche pas",
+        "Wifi campus problème",
+        "Problème réseau wifi université",
+        "Je rencontre un souci avec le Wi-Fi",
+        "Wifi campus connecté soucis",
+        "Wi-Fi instable campus"
+      ],
+      "responses": [
+        "Peux-tu préciser ton problème avec le Wi-Fi, par exemple : impossibilité de connexion, lenteur ou instabilité, difficulté avec les identifiants ou la procédure, ou autre souci ? Merci de me donner plus de détails pour mieux t'aider."
+      ]
+    },
+    "connexion_wifi": {
+      "questions": [
+        "Comment me connecter au Wi-Fi Campus Connecté ?",
+        "Procédure connexion wifi UCA",
+        "Comment accéder au wifi sur le campus ?",
+        "Connexion Wi-Fi université",
+        "Se connecter au wifi universitaire",
+        "wifi uca marche",
+        "connexion wifi campus connecté",
+        "wifi uca maroc",
+        "wifi campus connecté uca",
+        "connexion wifi uca",
+        "connexion réseau sans fil université",
+        "paramètres wifi uca"
+      ],
+      "responses": [
+        "Pour te connecter au Wi-Fi 'Campus Connecté' de l'UCA, active d'abord ton compte académique sur e-student.uca.ma si ce n'est pas encore fait, puis sélectionne le réseau Wi-Fi 'Campus Connecté' sur ton appareil, saisis ton identifiant sous la forme 'identifiant@uca.ac.ma' (ton adresse email académique) et entre ton mot de passe associé à ton compte UCA ; si une méthode d'authentification est demandée, choisis EAP : TTLS, authentification phase 2 : PAP, et ne valide pas le certificat CA si demandé."
+      ]
+    },
+    "problemes_connexion": {
+      "questions": [
+        "Je n'arrive pas à me connecter au Wi-Fi UCA",
+        "Connexion wifi impossible université",
+        "Wi-Fi campus ne fonctionne pas pour moi",
+        "Problème authentification Wi-Fi campus",
+        "Je ne connais pas mon identifiant Wi-Fi",
+        "Identifiants wifi uca perdus",
+        "Wi-Fi campus erreur de connexion",
+        "Wi-Fi campus connecté échec",
+        "Connexion wifi refusée",
+        "Wifi uca assistance"
+      ],
+      "responses": [
+        "Si tu ne peux pas te connecter au Wi-Fi 'Campus Connecté', vérifie que tu utilises bien ton adresse email complète (exemple : prenom.nom@uca.ac.ma) comme identifiant, assure-toi que ton mot de passe est correct, redémarre ton appareil, oublie le réseau 'Campus Connecté' dans les paramètres Wi-Fi puis reconnecte-toi, consulte les guides officiels disponibles sur les sites des établissements, et si ça ne marche toujours pas, contacte le support informatique de ton établissement ou l'équipe IT de l'UCA."
+      ]
+    },
+    "wifi_etablissements": {
+      "questions": [
+        "Le Wi-Fi est-il disponible dans tous les établissements UCA ?",
+        "Liste des campus avec Wi-Fi",
+        "Où puis-je utiliser le Wi-Fi Campus Connecté ?",
+        "Wifi UCA disponible dans quelles facultés ?",
+        "wifi campus connecté uca",
+        "wifi université cadi ayyad",
+        "wifi dans les établissements uca",
+        "wifi uca marrakech safi essaouira kelâa"
+      ],
+      "responses": [
+        "Le Wi-Fi 'Campus Connecté' est disponible dans tous les établissements UCA, répartis comme suit : 9 établissements à Marrakech, 3 à Safi, 1 à Essaouira, et 2 à Kelaâ des Sraghna, et tu peux te connecter sur tous ces campus en utilisant la procédure habituelle."
+      ]
+    },
+    "wifi_pack_talib": {
+      "questions": [
+        "Qu'est-ce que le Pack TALIB ?",
+        "Avantages du Pack TALIB pour étudiants",
+        "Comment bénéficier du Pack TALIB ?",
+        "wifi pack talib",
+        "pack talib uca",
+        "pack talib inwi wifi",
+        "offre pack talib",
+        "pack talib connexion wifi"
+      ],
+      "responses": [
+        "Le Pack TALIB est une offre spéciale en partenariat avec INWI qui fournit aux étudiants de l'UCA une carte SIM avec forfait de données mobiles, l'accès au réseau Wi-Fi 'Campus Connecté' dans tous les établissements UCA, ainsi que des avantages exclusifs pour faciliter l'accès aux ressources numériques ; pour plus d'informations et pour obtenir le Pack TALIB, consulte le site officiel de l'UCA ou le service des étudiants."
+      ]
+    }
+  },
+  "sante": {
+    "amo_definition": {
+      "questions": [
+        "AMO définition étudiants UCA",
+        "Assurance maladie obligatoire étudiants Maroc",
+        "AMO étudiants c'est quoi",
+        "Rôle AMO étudiants",
+        "Couverture médicale étudiants AMO",
+        "Comment définir l'AMO pour les étudiants ?",
+        "Qu'est-ce que l'assurance AMO à l'UCA ?",
+        "Expliquez-moi l'AMO étudiante",
+        "Définition précise de l'AMO",
+        "L'AMO, comment ça marche pour les étudiants ?",
+        "Que signifie AMO pour les étudiants de l'université ?",
+        "Quel est le principe de l'AMO étudiante ?",
+        "À quoi sert l'AMO pour les étudiants ?",
+        "Informations sur l'AMO étudiante",
+        "C'est quoi l'assurance maladie pour les étudiants au Maroc ?",
+        "Détails sur l'AMO UCA",
+        "Qu'est-ce que l'AMO ?",
+        "Définition de l'assurance maladie obligatoire",
+        "Explication de l'AMO"
+      ],
+      "responses": [
+        "L'AMO Étudiants est un dispositif de couverture médicale de base mis en place pour les étudiants inscrits dans l'enseignement supérieur.",
+        "L'Assurance Maladie Obligatoire (AMO) offre une protection sociale aux étudiants de l'UCA."
+      ]
+    },
+    "amo_beneficiaires": {
+      "questions": [
+        "AMO étudiants conditions",
+        "Qui a droit AMO étudiants",
+        "Critères éligibilité AMO UCA",
+        "Bénéficiaires AMO étudiants",
+        "Étudiants éligibles AMO Maroc",
+        "Conditions pour avoir l'AMO",
+        "Qui peut bénéficier de l'AMO ?",
+        "Exigences AMO",
+        "Je veux savoir si je peux avoir l'AMO",
+        "AMO - conditions d'accès",
+        "Quelles sont les conditions d'éligibilité à l'AMO étudiante ?",
+        "Qui est concerné par l'AMO ?",
+        "Comment savoir si je suis éligible à l'AMO ?",
+        "Les étudiants étrangers peuvent-ils bénéficier de l'AMO ?",
+        "Y a-t-il une limite d'âge pour l'AMO ?",
+        "Quels sont les critères pour l'AMO ?",
+        "Conditions d'accès à l'assurance maladie étudiante"
+      ],
+      "responses": [
+        "Pour en bénéficier, l'étudiant doit :\n- Être inscrit dans un établissement public\n- Avoir 30 ans ou moins (sauf exception en cycle terminal)\n- Ne pas être déjà couvert par une autre assurance maladie de base",
+        "Conditions AMO :\n✔ Inscription dans le public\n✔ ≤ 30 ans\n✔ Pas d'autre couverture\nPlus d'infos : amo.uca.ma/conditions"
+      ]
+    },
+    "amo_inscription": {
+      "questions": [
+        "AMO inscription UCA démarches",
+        "Assurance étudiante inscription Marrakech",
+        "Adhésion AMO UCA étapes",
+        "Portail AMO étudiants",
+        "amo.uca.ma comment utiliser",
+        "Comment s'inscrire à l'AMO ?",
+        "Procédure inscription AMO",
+        "Démarches AMO en ligne",
+        "Inscription assurance étudiante",
+        "AMO - comment adhérer ?",
+        "Comment faire pour s'inscrire à l'AMO ?",
+        "Étapes d'inscription AMO",
+        "Où s'inscrire pour l'AMO ?",
+        "Processus d'adhésion à l'AMO",
+        "Inscription en ligne AMO",
+        "Site d'inscription AMO",
+        "Comment remplir le formulaire AMO ?"
+      ],
+      "responses": [
+        "Inscription AMO en 3 étapes :\n1. Créer un compte sur amo.uca.ma\n2. Remplir le formulaire en ligne\n3. Dépôt physique du dossier lors de l'inscription universitaire\n\nCotisation : 400 DH/an (gratuite pour filières publiques)",
+        "Tout se passe sur amo.uca.ma. La cotisation est de 400 DH, prise en charge par l'État pour les filières publiques."
+      ]
+    },
+    "amo_cout": {
+      "questions": [
+        "AMO étudiants tarif",
+        "Prix AMO étudiants UCA",
+        "Cotisation annuelle AMO étudiants",
+        "Coût assurance maladie étudiants",
+        "Combien payer AMO étudiants",
+        "Montant AMO",
+        "Tarification assurance étudiante",
+        "AMO prix annuel",
+        "Frais AMO",
+        "Gratuit ou payant l'AMO ?",
+        "Quel est le coût de l'AMO ?",
+        "Combien coûte l'assurance maladie étudiante ?",
+        "Y a-t-il des frais pour l'AMO ?",
+        "Le paiement de l'AMO est-il obligatoire ?",
+        "Est-ce que l'AMO est gratuite ?",
+        "Prix de l'adhésion AMO",
+        "Frais d'inscription AMO"
+      ],
+      "responses": [
+        "La cotisation AMO est de 400 DH/an pour les filières payantes. Pour les filières publiques gratuites, elle est prise en charge par l'État. Paiement en ligne via amo.uca.ma.",
+        "Tarifs AMO :\n- 400 DH pour les filières privées\n- Gratuit pour les filières publiques\nPlus d'infos : amo.uca.ma/tarifs"
+      ]
+    },
+    "amo_prestations": {
+      "questions": [
+        "AMO étudiants couverture",
+        "Soins pris en charge AMO",
+        "Prestations AMO étudiants Maroc",
+        "Consultations couvertes AMO étudiants",
+        "Services médicaux AMO étudiants",
+        "Taux remboursement AMO",
+        "AMO couvre-t-il les lunettes ?",
+        "Remboursement pharmacie AMO",
+        "Prothèses dentaires AMO",
+        "Médecins conventionnés AMO",
+        "Que couvre l'AMO ?",
+        "Quels sont les services de santé inclus dans l'AMO ?",
+        "L'AMO rembourse-t-elle les médicaments ?",
+        "Quelles sont les prestations de l'AMO étudiante ?",
+        "Prise en charge AMO",
+        "Liste des soins couverts par l'AMO",
+        "Remboursement des frais médicaux AMO"
+      ],
+      "responses": [
+        "L'AMO prend en charge :\n- Consultations : 80% du tarif\n- Soins dentaires : 80%\n- Hospitalisation : 90% (privé) / 100% (public)\n- Analyses médicales, radiologie...\nListe complète : amo.uca.ma/prestations",
+        "Couverture AMO inclut :\n✔ Soins médicaux (80%)\n✔ Hospitalisation (90-100%)\n✔ Soins dentaires de base\n✖ Lunettes non incluses"
+      ]
+    }
+  },
+  "inscription": {
+    "procedure_inscription": {
+      "questions": [
+        "Procédure inscription UCA étapes",
+        "Inscription université démarches",
+        "Portail UCA inscription",
+        "Comment s'inscrire UCA",
+        "uca.ma inscription",
+        "Je veux m'inscrire à l'UCA, comment faire ?",
+        "Démarches pour intégrer l'université Cadi Ayyad",
+        "Processus d'inscription à la fac",
+        "Guide complet pour s'inscrire",
+        "Nouvel étudiant - démarches à suivre",
+        "Quelles sont les étapes d'inscription à ENSA , ESTE, EST, FST?",
+        "Comment procéder pour l'inscription universitaire ?",
+        "Le guide d'inscription UCA",
+        "Comment s'inscrire à l'université Cadi Ayyad ?",
+        "Procédure d'admission UCA",
+        "Étapes d'inscription pour les nouveaux étudiants"
+      ],
+      "responses": [
+        "Procédure d'inscription :\n1. Créer un compte sur uca.ma\n2. Remplir le formulaire en ligne\n3. Dépôt des documents en personne\nPlus de détails : uca.ma/inscription",
+        "Pour vous inscrire, suivez les étapes affichées sur le site de l'UCA : http://uca.ma"
+      ]
+    },
+    "documents_inscription": {
+      "questions": [
+        "Documents inscription liste",
+        "Dossier inscription UCA",
+        "Justificatifs inscription université",
+        "Papiers nécessaires inscription",
+        "Quels documents pour s'inscrire ?",
+        "Checklist inscription UCA",
+        "Pièces à fournir pour l'inscription",
+        "Liste des documents requis",
+        "Qu'est-ce qu'il faut pour s'inscrire ?",
+        "Prérequis documents inscription",
+        "Quels papiers dois-je préparer pour l'inscription ?",
+        "Liste des pièces justificatives pour l'UCA",
+        "Documents à fournir pour l'admission",
+        "Dossier d'inscription complet",
+        "Quels sont les documents nécessaires ?"
+      ],
+      "responses": [
+        "Documents requis :\n- Relevé de notes du bac\n- CIN originale + copie\n- Acte de naissance\n- 4 photos d'identité\n- Formulaire d'inscription dûment rempli",
+        "Checklist inscription :\n✔ Bac\n✔ CIN\n✔ Acte naissance\n✔ Photos\n✔ Formulaire\n✔ Chèque (si filière payante)"
+      ]
+    },
+    "periode_inscription": {
+      "questions": [
+        "Dates inscription UCA",
+        "Calendrier inscription université",
+        "Période inscription rentrée",
+        "Quand s'inscrire UCA",
+        "Inscription ouverte quand ?",
+        "Deadline inscription UCA",
+        "Dates importantes inscription",
+        "Quand commencent les inscriptions ?",
+        "Jusqu'à quand s'inscrire ?",
+        "Calendrier académique inscription",
+        "Quelles sont les dates limites d'inscription ?",
+        "Quand puis-je m'inscrire à l'université ?",
+        "Périodes d'inscription pour la nouvelle année",
+        "Dates d'ouverture et de clôture des inscriptions",
+        "Calendrier des inscriptions UCA"
+      ],
+      "responses": [
+        "Les inscriptions débutent généralement en septembre. Dates exactes sur uca.ma/calendrier",
+        "Périodes d'inscription :\n- Licence : septembre\n- Master : variable\nVérifiez régulièrement le site officiel."
+      ]
+    },
+    "lieu_inscription": {
+      "questions": [
+        "Lieu inscription faculté",
+        "Dépôt dossier physique",
+        "Inscription en ligne ou présentiel",
+        "Où s'inscrire UCA",
+        "Adresse pour s'inscrire",
+        "Où déposer son dossier ?",
+        "Inscription sur place où ?",
+        "Faculté d'inscription",
+        "Point de dépôt des dossiers",
+        "Guichet inscription UCA",
+        "Où se déroule l'inscription ?",
+        "Faut-il se déplacer pour s'inscrire ?",
+        "Adresse du service des inscriptions",
+        "Lieu de dépôt des documents"
+      ],
+      "responses": [
+        "L'inscription se fait :\n1. En ligne sur uca.ma\n2. Puis dépôt physique dans votre faculté d'affectation",
+        "Après l'inscription en ligne, rendez-vous dans votre faculté pour finaliser le dossier."
+      ]
+    },
+    "inscription_en_ligne": {
+      "questions": [
+        "Inscription en ligne portail",
+        "s'inscrire à distance UCA",
+        "Procédure numérique inscription",
+        "Inscription internet UCA",
+        "Inscription 100% en ligne ?",
+        "Puis-je m'inscrire sans me déplacer ?",
+        "Formulaire en ligne UCA",
+        "Inscription digitale",
+        "Tout faire en ligne ?",
+        "Plateforme inscription UCA",
+        "Est-ce que l'inscription est entièrement en ligne ?",
+        "Comment s'inscrire via internet ?",
+        "Y a-t-il un portail d'inscription en ligne ?",
+        "Peut-on s'inscrire à distance ?"
+      ],
+      "responses": [
+        "L'inscription commence en ligne sur uca.ma, mais un dépôt physique est requis pour valider le dossier.",
+        "Procédure hybride :\n- Démarrage en ligne\n- Finalisation en présentiel"
+      ]
+    },
+    "frais_inscription": {
+      "questions": [
+        "Coût inscription UCA",
+        "Frais université payants",
+        "Gratuité inscription publique",
+        "Prix inscription master",
+        "Inscription est-elle payante ?",
+        "Quels frais pour s'inscrire ?",
+        "Tarifs inscription UCA",
+        "Faut-il payer pour s'inscrire ?",
+        "Montant inscription licence",
+        "Bourses et frais d'inscription",
+        "Combien coûte l'inscription à l'UCA ?",
+        "Y a-t-il des frais d'inscription ?",
+        "L'inscription est-elle gratuite ?",
+        "Prix des masters spécialisés",
+        "Frais de scolarité UCA"
+      ],
+      "responses": [
+        "L'inscription est gratuite pour les filières publiques standard. Frais applicables pour :\n- Masters spécialisés\n- Formations continues\n- Établissements privés",
+        "Gratuité pour :\n✔ Licences publiques\n✔ Masters recherche\nFrais pour :\n✖ Masters spécialisés\n✖ Formations continues"
+      ]
+    },
+    "aide_inscription": {
+      "questions": [
+        "Assistance inscription université",
+        "Cellule accueil inscription",
+        "Service aide inscription",
+        "Accompagnement nouveau étudiant",
+        "Qui peut m'aider à m'inscrire ?",
+        "Support inscription UCA",
+        "Service orientation inscription",
+        "Besoin d'aide pour l'inscription",
+        "Guides pour nouveaux étudiants",
+        "Contact pour questions inscription",
+        "Où trouver de l'aide pour l'inscription ?",
+        "Qui contacter en cas de problème d'inscription ?",
+        "Y a-t-il un service d'assistance pour l'inscription ?",
+        "Aide pour les démarches d'inscription",
+        "Numéro de téléphone pour l'inscription"
+      ],
+      "responses": [
+        "Des cellules d'aide sont disponibles dans chaque faculté pendant la période d'inscription.",
+        "Assistance disponible :\n- Par mail : inscription@uca.ma\n- Par téléphone : 0524 43 46 00\n- Sur place dans votre faculté"
+      ]
+    }
+  },
+  "documents": {
+    "attestation_scolarite": {
+      "questions": [
+        "Attestation scolarité obtenir",
+        "Certificat inscription UCA",
+        "Demande attestation scolarité",
+        "Comment obtenir une attestation de scolarité ?",
+        "Où demander mon certificat d’inscription ?"
+      ],
+      "responses": [
+        "Les documents officiels sont délivrés par le service scolarité de votre établissement universitaire.",
+        "Vous pouvez demander votre attestation de scolarité directement au bureau de scolarité ou via le portail ENT si disponible.",
+        "Rendez-vous au service scolarité avec votre CIN et numéro Massar pour obtenir l’attestation."
+      ]
+    },
+    "releve_notes": {
+      "questions": [
+        "Relevé notes copie",
+        "Bulletin notes officiel",
+        "Obtenir relevé notes UCA",
+        "Comment avoir mon relevé de notes ?",
+        "Qui délivre le relevé de notes ?"
+      ],
+      "responses": [
+        "Le relevé de notes est délivré par le secrétariat pédagogique ou le service scolarité de votre faculté.",
+        "Vous devez en faire la demande en personne ou via la plateforme ENT, si votre établissement le permet.",
+        "Les relevés de notes sont remis après validation des résultats de l’année universitaire."
+      ]
+    },
+    "attestation_reussite": {
+      "questions": [
+        "Attestation réussite diplôme",
+        "Certificat réussite UCA",
+        "Obtenir validation études",
+        "Comment avoir une attestation de réussite ?",
+        "Quand puis-je récupérer l’attestation de réussite ?"
+      ],
+      "responses": [
+        "L’attestation de réussite est délivrée par le service scolarité après validation des résultats finaux et jury.",
+        "Vous pouvez faire la demande de ce document une fois votre dernier semestre validé.",
+        "Ce document prouve que vous avez terminé votre formation avec succès en attendant le diplôme définitif."
+      ]
+    },
+    "recuperation_diplome": {
+      "questions": [
+        "Retrait diplôme UCA",
+        "Récupérer diplôme original",
+        "Obtenir diplôme physique",
+        "Comment récupérer mon diplôme final ?",
+        "Quand puis-je retirer mon diplôme ?"
+      ],
+      "responses": [
+        "Le retrait du diplôme s’effectue auprès du service scolarité de votre établissement.",
+        "Vous devez vous présenter avec votre CIN et parfois une photo d'identité pour retirer votre diplôme final.",
+        "Le diplôme est disponible après délibération du jury et impression des documents officiels."
+      ]
+    },
+    "demande_en_ligne_documents": {
+      "questions": [
+        "Demande documents ENT",
+        "Portail ENT attestation",
+        "Documents en ligne UCA",
+        "Peut-on demander des documents via ENT ?",
+        "Est-ce possible de faire une demande à distance ?"
+      ],
+      "responses": [
+        "Certaines demandes peuvent être faites en ligne via la plateforme ENT de l’UCA : https://ent.uca.ma",
+        "Oui, vous pouvez demander des documents comme l’attestation de scolarité ou le relevé de notes via ENT, selon disponibilité.",
+        "Connectez-vous à ENT avec vos identifiants UCA pour accéder aux services de demande en ligne."
+      ]
+    },
+    "delai_documents": {
+      "questions": [
+        "Délai obtention documents",
+        "Temps traitement attestation",
+        "Quand recevoir papiers",
+        "Combien de temps pour avoir un document ?",
+        "Délais pour obtenir mon relevé ou attestation ?"
+      ],
+      "responses": [
+        "Les documents comme l’attestation ou le relevé sont généralement délivrés sous 48h ouvrables après la demande.",
+        "Les délais peuvent varier selon la période universitaire, mais en moyenne cela prend 2 jours ouvrés.",
+        "En cas d’urgence, informez le service scolarité pour une prise en charge rapide si possible."
+      ]
+    },
+    "deplacement_documents": {
+      "questions": [
+        "Récupération documents physique",
+        "Déplacement nécessaire diplôme",
+        "Retrait sur place attestation",
+        "Faut-il venir sur place pour les documents ?",
+        "Peut-on déléguer quelqu’un pour récupérer les papiers ?"
+      ],
+      "responses": [
+        "Pour certains documents officiels, il est obligatoire de se déplacer en personne à l’établissement.",
+        "La récupération des originaux nécessite souvent une présence physique avec une pièce d'identité.",
+        "Dans certains cas, une procuration écrite peut permettre à un tiers de récupérer vos documents."
+      ]
+    }
+  },
+  "filieres": {
+    "offre_formation": {
+  "questions": [
+    "Quels sont les cursus proposés à l'UCA ?",
+    "Liste des formations disponibles à l'université Cadi Ayyad",
+    "Quels programmes d'études puis-je suivre à l'UCA ?",
+    "Quels diplômes peut-on obtenir à l'UCA ?",
+    "Y a-t-il des formations en sciences, droit, économie à l'UCA ?",
+    "Quels sont les domaines de formation à l'université Cadi Ayyad ?",
+    "Peut-on trouver des formations en ingénierie à l'UCA ?",
+    "Quelles spécialités sont offertes à l'UCA ?",
+    "Comment consulter l'offre de formation complète de l'UCA ?",
+    "L'UCA propose-t-elle des formations en sciences humaines et sociales ?",
+    "Quels masters sont proposés par l'UCA ?",
+    "Y a-t-il des formations professionnelles à l'UCA ?",
+    "Quels sont les cursus de licence disponibles à l'UCA ?"
+  ],
+  "responses": [
+    "L’Université Cadi Ayyad (UCA) offre une large gamme de formations allant des licences aux masters et doctorats, couvrant des domaines comme les sciences, le droit, l’économie, les lettres, les sciences humaines, les techniques et l’ingénierie. Pour consulter l’offre complète de formation, vous pouvez visiter le site officiel de l’UCA ou contacter les services de scolarité des différentes facultés et écoles.",
+    "À l’UCA, vous pouvez suivre des cursus en sciences fondamentales et appliquées, sciences de l’ingénieur, sciences économiques et gestion, droit, lettres et sciences humaines, santé, et bien d’autres disciplines.Pour consulter l’offre complète de formation, vous pouvez visiter le site officiel de l’UCA ou contacter les services de scolarité des différentes facultés et écoles.",
+    "L’offre de formation de l’UCA inclut des diplômes de licence, master, doctorat, ainsi que des formations professionnelles et continues, adaptées aux besoins du marché du travail et à la recherche scientifique.Pour consulter l’offre complète de formation, vous pouvez visiter le site officiel de l’UCA ou contacter les services de scolarité des différentes facultés et écoles."
+  ]
+},
+
+    "licence_pro": {
+      "questions": [
+        "Licence pro informatique",
+        "Formation professionnelle info",
+        "LP informatique UCA"
+      ],
+      "responses": [
+        "Oui, certaines facultés de l’UCA proposent des licences professionnelles en informatique.",
+        "Des licences pro en informatique sont disponibles selon les établissements et les années.",
+        "Vous pouvez consulter l’offre de licences pro sur le site : https://uca.ma/formations"
+      ]
+    },
+    "masters": {
+      "questions": [
+        "Masters UCA spécialités",
+        "Formations master liste",
+        "Programmes master université"
+      ],
+      "responses": [
+        "Plusieurs masters sont disponibles à l’UCA, selon les disciplines et les établissements.",
+        "Les masters couvrent divers domaines comme l’ingénierie, l’économie, la biologie, etc.",
+        "Chaque faculté propose ses propres masters. Consultez les offres sur : https://uca.ma/formations"
+      ]
+    },
+    "formation_distance": {
+      "questions": [
+        "Formation à distance UCA",
+        "Cours en ligne université",
+        "Études remote UCA"
+      ],
+      "responses": [
+        "L’UCA propose certaines formations hybrides ou à distance selon les filières.",
+        "Des programmes à distance existent, en particulier dans les licences professionnelles.",
+        "Consultez les formations en ligne sur le site officiel ou auprès de votre établissement."
+      ]
+    },
+    "choix_filiere": {
+      "questions": [
+        "Choisir filière conseils",
+        "Orientation études UCA",
+        "Sélection formation université"
+      ],
+      "responses": [
+        "Le choix dépend de vos résultats, de vos intérêts, et des débouchés professionnels.",
+        "Renseignez-vous sur chaque filière et ses perspectives avant de vous décider.",
+        "Des conseillers d’orientation peuvent vous guider pour faire le bon choix."
+      ]
+    },
+    "filiere_etablissement": {
+      "questions": [
+        "Spécialités FST UCA",
+        "Formations ENSA Marrakech",
+        "Programmes FSSM",
+        "Cursus par faculté"
+      ],
+      "responses": [
+        "Chaque établissement (ENSA, FST, FSSM…) propose ses propres formations spécialisées.",
+        "L’ENSA se spécialise en ingénierie, la FST en sciences appliquées, la FSSM en math et informatique.",
+        "Consultez directement les pages des établissements pour les filières spécifiques."
+      ]
+    }
+  },
+  "calendrier": {
+    "debut_cours": {
+      "questions": [
+        "Quelle est la date précise du début des cours ?",
+        "Quand démarrent les enseignements cette année ?",
+        "Début des cours : calendrier officiel ?"
+      ],
+      "responses": [
+        "Les cours débutent généralement début septembre/octobre selon les filières.",
+        "La rentrée pédagogique varie selon les établissements mais commence souvent en septembre.",
+        "Les cours commencent en général dans les deux premières semaines de septembre ou octobre."
+      ]
+    },
+    "examens": {
+      "questions": [
+        "Période exacte des examens finaux ?",
+        "Quand se déroulent les sessions d'examens ?",
+        "Dates clés des examens semestriels ?"
+      ],
+      "responses": [
+        "Les examens se tiennent souvent en janvier et en juin, mais cela dépend de votre faculté.",
+        "Les périodes d’examen sont généralement en fin de semestre, en janvier et en juin.",
+        "Les dates précises sont fixées par chaque faculté, souvent en janvier pour le 1er semestre et juin pour le 2e."
+      ]
+    },
+    "vacances": {
+      "questions": [
+        "Prochaines vacances universitaires prévues ?",
+        "Quand sont les congés académiques ?",
+        "Dates des pauses pédagogiques ?"
+      ],
+      "responses": [
+        "Les périodes de vacances sont indiquées dans le calendrier universitaire officiel.",
+        "Les vacances varient selon les établissements. Consultez votre faculté pour plus d'infos.",
+        "Vous pouvez voir les dates de congés sur le site de l’UCA ou via votre ENT."
+      ]
+    },
+    "calendrier_universitaire": {
+      "questions": [
+        "Accès au calendrier académique global ?",
+        "Où télécharger le planning annuel ?",
+        "Lien vers le calendrier intégral UCA ?"
+      ],
+      "responses": [
+        "Le calendrier est publié chaque année sur le site officiel de l’UCA.",
+        "Vous trouverez le calendrier universitaire sur http://uca.ma ou via ENT.",
+        "Chaque établissement affiche également le calendrier sur ses panneaux d’annonce."
+      ]
+    }
+  },
+  "bourse_universitaire": {
+    "reponse_generale": {
+      "questions": [
+        "J'ai une question sur les bourses universitaires, que dois-je préciser ?",
+        "Je veux des informations sur les bourses UCA, que faut-il dire ?",
+        "Quels types de bourses existe-t-il ?",
+        "Quels sont les types d'aides financières offertes aux étudiants ?",
+        "Comment fonctionnent les bourses à l'université ?"
+      ],
+      "responses": [
+        "Merci de préciser si ta question concerne l’éligibilité, la procédure de demande, le montant, les bourses au mérite (excellence), la mobilité internationale (échanges, Erasmus), ou les bourses pour études à l'étranger."
+      ]
+    },
+    "eligibilite": {
+      "questions": [
+        "Qui peut obtenir une bourse à l'UCA ?",
+        "Quelles sont les conditions pour bénéficier d’une bourse universitaire ?",
+        "Qui est éligible à la bourse ?",
+        "Critères d’éligibilité pour bourse universitaire ?",
+        "Qui peut bénéficier de l’aide financière étudiante ?"
+      ],
+      "responses": [
+        "Les étudiants marocains de moins de 26 ans, titulaires d’un bac de l’année en cours, inscrits dans un établissement public, enregistrés au Registre National de la Population (RNP) et au Registre Social Unifié (RSU), peuvent être éligibles. Le mérite académique et la situation sociale sont aussi pris en compte."
+      ]
+    },
+    "procedure": {
+      "questions": [
+        "Comment faire la demande de bourse ?",
+        "Quelle est la procédure pour demander une bourse universitaire ?",
+        "Où et quand postuler pour la bourse ?",
+        "Quels sont les documents nécessaires pour une demande de bourse ?",
+        "Quelles démarches suivre pour obtenir une aide financière ?"
+      ],
+      "responses": [
+        "La demande se fait exclusivement en ligne sur le site officiel https://www.minhaty.ma. L'étudiant doit s'inscrire à l’aide de son Code Massar ou de sa CIN, compléter le formulaire et télécharger les pièces demandées. Il faut respecter les délais de candidature publiés chaque année."
+      ]
+    },
+    "montant": {
+      "questions": [
+        "Quel est le montant des bourses ?",
+        "Combien touche un étudiant boursier ?",
+        "Montant des bourses universitaires à l'UCA ?",
+        "À combien s’élève une bourse universitaire ?",
+        "Quel est le montant trimestriel ou annuel de la bourse ?"
+      ],
+      "responses": [
+        "Le montant varie selon le niveau d’études : Licence : bourse entière ≈ 1 900 DH/trimestre, demi-bourse ≈ 950 DH/trimestre ; Master : ≈ 2 200 DH/trimestre ; Doctorat : ≈ 3 664 DH/trimestre. Le versement est effectué par trimestre."
+      ]
+    },
+    "bourse_merite": {
+      "questions": [
+        "Que sont les bourses de mérite ?",
+        "Comment obtenir une bourse d’excellence ?",
+        "Bourse au mérite : qui peut en bénéficier ?",
+        "C’est quoi une bourse basée sur les performances ?",
+        "Comment sont attribuées les bourses de mérite ?"
+      ],
+      "responses": [
+        "Il s'agit de bourses accordées aux meilleurs étudiants selon leur classement national ou régional. Généralement, jusqu’à 70 % des étudiants retenus dans certaines formations bénéficient de cette bourse grâce à leur performance académique exceptionnelle."
+      ]
+    },
+    "internationale": {
+      "questions": [
+        "Comment obtenir une bourse internationale via l'UCA ?",
+        "Quelles sont les étapes pour décrocher une bourse à l’étranger ?",
+        "Procédure pour les bourses internationales ?",
+        "Quels programmes d’études à l’international existent avec bourse ?",
+        "Comment postuler à une bourse internationale ?",
+        "Y a-t‑il des bourses pour la mobilité internationale ?",
+        "L'UCA propose-t-elle des aides pour étudier à l'étranger ?",
+        "Existe-t-il une bourse pour les échanges internationaux ?",
+        "Peut-on bénéficier d’une aide financière pour un programme Erasmus ?",
+        "L’université offre-t-elle des bourses pour la mobilité académique ?"
+      ],
+      "responses": [
+        "Il faut consulter les appels à candidatures publiés régulièrement par le Bureau des Relations Internationales de l’UCA. Prépare un dossier complet (relevés, lettres de motivation, CV, projet d’études…), respecte les délais, et contacte le service des relations internationales de ton établissement pour accompagnement."
+      ]
+    }
+  },
+  "culture": {
+    "evenements_culturels": {
+      "questions": [
+        "Programmation annuelle des événements culturels ?",
+        "Quels spectacles culturels sont organisés ?",
+        "Agenda des manifestations artistiques UCA ?"
+      ],
+      "responses": [
+        "Chaque année, l'UCA organise plusieurs événements culturels majeurs : commémoration de la Marche Verte, Fête de l’Indépendance, festivals, compétitions artistiques, etc.",
+        "Des festivals et événements comme le Festival du Théâtre Universitaire ou la Semaine de la Créativité sont organisés régulièrement.",
+        "L’université propose chaque année un programme riche en activités culturelles : spectacles, concours artistiques, expositions, etc."
+      ]
+    },
+    "festivals_competitions": {
+      "questions": [
+        "Festivals étudiants programmés cette année ?",
+        "Compétitions culturelles ouvertes aux étudiants ?",
+        "Quels concours artistiques sont prévus ?"
+      ],
+      "responses": [
+        "Oui, plusieurs festivals sont organisés : Festival du Théâtre Universitaire en avril, Festival de la Créativité Étudiante en juin, concours de chant, peinture, photo, etc.",
+        "Des compétitions artistiques sont tenues régulièrement pour mettre en valeur les talents étudiants.",
+        "L’université accueille des concours culturels annuels à travers ses clubs et ligues artistiques."
+      ]
+    },
+    "clubs_culturels": {
+      "questions": [
+        "Liste des clubs artistiques disponibles ?",
+        "Comment intégrer un club culturel ?",
+        "Offre permanente des ligues créatives ?"
+      ],
+      "responses": [
+        "Oui, l'UCA possède une Ligue Culturelle ainsi que des clubs comme chorale, arts plastiques, théâtre, photo et audiovisuel.",
+        "Les étudiants peuvent rejoindre des clubs culturels pour pratiquer leur passion artistique.",
+        "Plusieurs structures permettent aux étudiants de s’engager dans des activités créatives encadrées."
+      ]
+    },
+    "participation_evenements": {
+      "questions": [
+        "Procédure d'inscription aux activités culturelles ?",
+        "Comment s'engager dans un événement artistique ?",
+        "Modalités pratiques pour participer ?"
+      ],
+      "responses": [
+        "Vous pouvez vous inscrire via le portail UCA (rubrique Vie étudiante) ou auprès des clubs organisateurs.",
+        "Les inscriptions aux activités se font soit en ligne sur https://uca.ma, soit en contactant les responsables culturels.",
+        "Pour participer, il suffit de suivre les annonces affichées dans votre faculté ou sur le site web."
+      ]
+    },
+    "calendrier_evenements": {
+      "questions": [
+        "Où consulter l'agenda culturel mis à jour ?",
+        "Source officielle du programme culturel ?",
+        "Diffusion des dates des événements artistiques ?"
+      ],
+      "responses": [
+        "Le calendrier culturel est publié en ligne sur le site UCA et affiché dans les établissements.",
+        "Les événements sont visibles sur la page Vie Étudiante de https://uca.ma.",
+        "Des affiches sont régulièrement mises à jour dans les campus pour annoncer les manifestations culturelles."
+      ]
+    }
+  },
+  "sport": {
+    "disciplines_sportives": {
+      "questions": [
+        "Sports praticables sur les campus UCA ?",
+        "Quelles activités sportives sont proposées ?",
+        "Disciplines disponibles en pratique libre ?"
+      ],
+      "responses": [
+        "L’UCA propose plusieurs sports : collectifs (football, basket, handball, volley, rugby) et individuels (athlétisme, tennis de table, tir à l’arc, échecs…).",
+        "Les étudiants peuvent pratiquer une grande variété de sports, selon leur campus.",
+        "Différentes disciplines sportives sont accessibles aux étudiants dans les infrastructures universitaires."
+      ]
+    },
+    "competitions_sportives": {
+      "questions": [
+        "Championnats universitaires annuels ?",
+        "Tournois inter-facultés programmés ?",
+        "Compétitions sportives officielles UCA ?"
+      ],
+      "responses": [
+        "Oui, chaque année, l’UCA organise des compétitions locales, régionales et nationales, avec le soutien de la LRMUS.",
+        "Un programme sportif annuel comprend divers tournois et championnats universitaires.",
+        "Des compétitions sportives sont programmées tout au long de l’année dans plusieurs disciplines."
+      ]
+    },
+    "rejoindre_equipe": {
+      "questions": [
+        "Intégration équipes sportives universitaires ?",
+        "Processus pour rejoindre un club sportif ?",
+        "Sélections pour les représentations sportives ?"
+      ],
+      "responses": [
+        "Pour rejoindre une équipe, contactez la Ligue Universitaire ou les clubs de sport de votre faculté.",
+        "Il faut s’inscrire auprès de votre responsable sportif ou directement via les associations de sport du campus.",
+        "Les équipes sportives accueillent les étudiants intéressés après une inscription simple auprès de l’administration sportive."
+      ]
+    },
+    "infrastructures_sport": {
+      "questions": [
+        "Équipements sportifs accessibles aux étudiants ?",
+        "Description des installations sportives ?",
+        "Localisation des infrastructures sportives ?"
+      ],
+      "responses": [
+        "Oui, l’UCA dispose de gymnases, stades, terrains multisports, pistes d’athlétisme, etc.",
+        "Chaque campus est équipé pour accueillir des activités sportives variées.",
+        "Les étudiants ont accès à des infrastructures adaptées à la pratique régulière du sport."
+      ]
+    },
+    "calendrier_sportif": {
+      "questions": [
+        "Calendrier des rencontres sportives UCA ?",
+        "Où trouver les dates des matchs officiels ?",
+        "Programmation mensuelle des activités sportives ?"
+      ],
+      "responses": [
+        "Les calendriers sont publiés sur le site officiel UCA dans la rubrique 'Actualités sportives'.",
+        "Vous pouvez consulter les dates des compétitions sportives sur les panneaux d’affichage de votre faculté.",
+        "Les informations sportives sont disponibles en ligne et régulièrement mises à jour."
+      ]
+    }
+  },
+  "durabilite": {
+    "initiatives_durables": {
+      "questions": [
+        "Stratégie développement durable UCA ?",
+        "Engagements écologiques concrets ?",
+        "Politique environnementale universitaire ?"
+      ],
+      "responses": [
+        "L’UCA valorise le développement durable avec des projets écologiques, conférences, et actions de sensibilisation.",
+        "De nombreuses actions sont menées : tri des déchets, économie d’énergie, espaces verts, etc.",
+        "L’université agit pour un campus écoresponsable à travers plusieurs projets éducatifs et environnementaux."
+      ]
+    },
+    "green_map": {
+      "questions": [
+        "Fonctionnalités de la Green Map UCA ?",
+        "Utilisation pratique de la carte éco-campus ?",
+        "Contenu interactif de la Green Map ?"
+      ],
+      "responses": [
+        "La 'Green Map' est un outil en ligne qui localise les initiatives durables sur les campus de l’UCA.",
+        "C’est une carte interactive qui met en avant les actions écologiques de l’université.",
+        "Elle permet d’identifier les zones durables (recyclage, énergie, biodiversité) sur les sites universitaires."
+      ]
+    },
+    "projets_environnement": {
+      "questions": [
+        "Projets environnementaux en cours ?",
+        "Initiatives vertes partenariales ?",
+        "Recherches appliquées en écologie ?"
+      ],
+      "responses": [
+        "Oui, l’UCA participe à des projets comme Atlas Dark Sky ou des réserves de ciel étoilé.",
+        "L’université collabore sur des projets nationaux et internationaux autour de l’écologie.",
+        "Plusieurs projets scientifiques sont orientés vers la protection de l’environnement."
+      ]
+    },
+    "gestion_eco_responsable": {
+      "questions": [
+        "Gestion des ressources (eau/énergie) ?",
+        "Mesures d'éco-responsabilité opérationnelles ?",
+        "Optimisation énergétique des campus ?"
+      ],
+      "responses": [
+        "Des centres de recherche comme le CNEREE et CEIRS travaillent sur l’eau, l’énergie et l’inclusion.",
+        "L’université adopte des pratiques durables pour la gestion des ressources naturelles.",
+        "Des conférences et ateliers sensibilisent la communauté aux pratiques écoresponsables."
+      ]
+    },
+    "implication_etudiants": {
+      "questions": [
+        "Opportunités écologiques pour étudiants ?",
+        "Comment contribuer aux actions durables ?",
+        "Volontariat environnemental étudiant ?"
+      ],
+      "responses": [
+        "Oui, les étudiants peuvent rejoindre des clubs éco-citoyens ou participer à des campagnes de sensibilisation.",
+        "Des programmes de recyclage et d’écologie sont ouverts à la participation étudiante.",
+        "Les étudiants sont encouragés à proposer et mener des actions durables au sein du campus."
+      ]
+    }
+  },
+  "recherche": {
+    "structures_recherche": {
+      "questions": [
+        "Laboratoires de recherche reconnus ?",
+        "Centres d'excellence scientifiques UCA ?",
+        "Organigramme des unités de recherche ?"
+      ],
+      "responses": [
+        "L’UCA dispose d’un vaste écosystème de recherche composé de laboratoires universitaires (URAC), de plateformes technologiques, du CNEREE, du CEIRS, et bien d’autres structures engagées dans des projets de recherche à impact régional.",
+        "Parmi les structures de recherche à l’UCA, on trouve des laboratoires reconnus (URAC), des plateformes d’analyses scientifiques, ainsi que des centres comme le CNEREE ou le CEIRS, en lien avec les grands enjeux scientifiques et territoriaux."
+      ]
+    },
+    "cite_innovation": {
+      "questions": [
+        "Rôle de la Cité de l'Innovation ?",
+        "Services offerts par la Cité de l'Innovation ?",
+        "Accompagnement startups à l'UCA ?"
+      ],
+      "responses": [
+        "La Cité de l'Innovation est un cluster universitaire qui vise à valoriser les résultats de la recherche scientifique, encourager l'entrepreneuriat innovant et promouvoir le transfert technologique.",
+        "Située au sein de l'UCA, la Cité de l’Innovation joue un rôle clé dans le soutien aux start-ups, la valorisation des brevets, et la mise en relation entre chercheurs et industriels."
+      ]
+    },
+    "formation_doctorale": {
+      "questions": [
+        "Spécificités des écoles doctorales ?",
+        "Procédure d'inscription en doctorat ?",
+        "Thématiques prioritaires en recherche doctorale ?"
+      ],
+      "responses": [
+        "Oui, l’UCA propose plusieurs formations doctorales à travers ses unités de formation doctorale (UFD), permettant aux étudiants de poursuivre une recherche approfondie dans divers domaines.",
+        "Les doctorants peuvent s’inscrire dans des écoles doctorales liées aux structures de recherche de l’UCA, avec un encadrement académique et des projets scientifiques variés."
+      ]
+    },
+    "soutien_recherche": {
+      "questions": [
+        "Financements disponibles pour chercheurs ?",
+        "Programmes de soutien à la recherche ?",
+        "Partenariats internationaux scientifiques ?"
+      ],
+      "responses": [
+        "L’UCA encourage la recherche par des financements internes et externes, la participation à des programmes internationaux (comme Horizon Europe ou CNRST) et l’organisation d’événements scientifiques.",
+        "Pour renforcer la recherche, l’université met en place des dispositifs de soutien : appels à projets, bourses doctorales, partenariats internationaux et valorisation scientifique."
+      ]
+    },
+    "thematiques_recherche": {
+      "questions": [
+        "Axes prioritaires de recherche UCA ?",
+        "Domaines scientifiques stratégiques ?",
+        "Orientation thématique de la recherche ?"
+      ],
+      "responses": [
+        "Les thèmes de recherche à l’UCA couvrent des domaines comme les énergies renouvelables, la santé, les sciences sociales, l’intelligence artificielle, et le développement durable.",
+        "L’université axe ses recherches sur des thématiques à fort impact sociétal et territorial, notamment dans les domaines de l’environnement, de la technologie, de l’agriculture durable et de la santé publique."
+      ]
+    }
+  },
+  "formation": {
+    "offre_formations": {
+      "questions": [
+        "Quelles formations propose l'UCA ?",
+        " types de diplômes peut-on obtenir ?",
+        " les filières proposées ",
+        "Catalogue complet des formations ?",
+        "Disciplines enseignées à l'UCA ?",
+        "Filières diplômantes disponibles ?"
+      ],
+      "responses": [
+        "L’UCA propose une offre de formation diversifiée : licences fondamentales, licences professionnelles, masters, masters spécialisés et doctorats dans plusieurs disciplines.",
+        "Les formations à l’UCA couvrent les sciences, les lettres, les sciences économiques, l’ingénierie, les technologies, la santé, et les sciences humaines, réparties sur ses différentes facultés et écoles."
+      ]
+    },
+    "formation_continue": {
+      "questions": [
+        " l’UCA propose de la formation continue ?",
+        "suivre des formations professionnelles à l’UCA ?",
+        " des programmes de mise à niveau ou de spécialisation à l’Université Cadi Ayyad ?"
+      ],
+      "responses": [
+        "Oui, l’UCA offre des programmes de formation continue, permettant aux professionnels ou aux étudiants en reconversion d’acquérir de nouvelles compétences.",
+        "Des formations certifiantes et des modules de spécialisation sont proposés dans plusieurs domaines, en lien avec les besoins du marché et de l’innovation."
+      ]
+    },
+    "langues_enseignement": {
+      "questions": [
+        " les langues d’enseignement à l’UCA ?",
+        " l’UCA enseigne en français, arabe ou anglais ?",
+        "Les cours sont-ils en français à l’Université Cadi Ayyad ?",
+        "Langues utilisées dans les cursus ?",
+        "Répartition linguistique par filière ?",
+        "Cours en anglais disponibles ?"
+      ],
+      "responses": [
+        "Les formations à l’UCA sont dispensées principalement en arabe et en français, selon les filières. Certaines formations en sciences et en ingénierie sont également disponibles en anglais.",
+        "Les langues d’enseignement varient selon la discipline : le français est dominant en sciences, l’arabe dans certaines branches en droit ou lettres, et l’anglais est utilisé dans des masters spécialisés."
+      ]
+    }
+  },
+  "vie_etudiante": {
+    "services_etudiants": {
+      "questions": [
+        " les services proposés aux étudiants à l’UCA ?",
+        "L’université offre-t-elle un accompagnement pour les étudiants ?",
+        " types de soutien les étudiants ",
+        "Services d'accompagnement étudiant ?",
+        "Bien-être et vie pratique sur campus ?",
+        "Ressources disponibles pour étudiants ?"
+      ],
+      "responses": [
+        "L’UCA met à disposition des services de santé, d’orientation, de soutien pédagogique, de bibliothèques numériques, ainsi que des activités culturelles et sportives.",
+        "Des bureaux dédiés accompagnent les étudiants dans leurs démarches administratives, leur insertion professionnelle et leur vie universitaire."
+      ]
+    }
+  },
+  "international": {
+    "mobilite": {
+      "questions": [
+        "Est-ce que l’UCA propose des échanges internationaux ?",
+        "Peut-on partir à l’étranger pendant ses études à l’UCA ?",
+        "Quels sont les programmes de mobilité disponibles à l’Université Cadi Ayyad ?",
+        "Échanges internationaux UCA",
+        "Programmes mobilité étudiants",
+        "Partir étudier à l'étranger",
+        "Erasmus+ UCA"
+      ],
+      "responses": [
+        "Oui, l’UCA participe à plusieurs programmes de mobilité internationale comme Erasmus+, permettant aux étudiants et enseignants de faire des séjours d’études ou de recherche à l’étranger.",
+        "L’université a signé des partenariats avec de nombreuses institutions en Europe, en Afrique et ailleurs, favorisant la mobilité académique."
+      ]
+    },
+    "partenariats": {
+      "questions": [
+        "Avec quelles universités l’UCA collabore-t-elle à l’international ?",
+        "Quels sont les partenaires internationaux de l’Université Cadi Ayyad ?",
+        "Est-ce que l’UCA a des accords internationaux ?",
+        "Échanges internationaux UCA",
+        "Programmes mobilité étudiants",
+        "Partir étudier à l'étranger",
+        "Erasmus+ UCA"
+      ],
+      "responses": [
+        "L’UCA a établi plus de 300 conventions de partenariat avec des universités et centres de recherche à travers le monde, notamment en Europe, en Afrique et en Amérique du Nord.",
+        "Grâce à ces partenariats, des projets communs, des cotutelles de thèse et des formations co-diplômantes sont mis en place."
+      ]
+    }
+  },
+  "insertion_pro": {
+    "services_insertion": {
+      "questions": [
+        "Quels services l'UCA met en place pour accompagner les étudiants vers l'emploi ?",
+        "Comment l’UCA aide-t-elle ses étudiants à s’insérer professionnellement ?",
+        "L’UCA propose-t-elle des dispositifs pour faciliter la recherche de stage ou d’emploi ?",
+        "Services emploi étudiants",
+        "Aide insertion professionnelle",
+        "Accompagnement carrière UCA"
+      ],
+      "responses": [
+        "L’UCA met à disposition deux plateformes dédiées : PlaceOJeunes pour les stages et GRINSA pour l’emploi des lauréats.",
+        "Des services spécifiques comme PlaceOJeunes et GRINSA facilitent le lien entre étudiants, diplômés et entreprises."
+      ]
+    },
+    "placeojeunes": {
+      "questions": [
+        "Qu'est-ce que la plateforme PlaceOJeunes ?",
+        "À quoi sert la plateforme PlaceOJeunes à l’UCA ?",
+        "Comment les étudiants peuvent-ils utiliser PlaceOJeunes ?",
+        "Plateforme PlaceOJeunes",
+        "Offres stages UCA",
+        "Déposer CV étudiants"
+      ],
+      "responses": [
+        "PlaceOJeunes est une plateforme en ligne qui permet aux étudiants de consulter des offres de stage et d’emploi et de déposer leur CV.",
+        "Grâce à PlaceOJeunes, les étudiants peuvent accéder à des offres ciblées, déposées par des entreprises partenaires de l’UCA."
+      ]
+    },
+    "grinsa": {
+      "questions": [
+        "Qu'est-ce que la plateforme GRINSA ?",
+        "Comment fonctionne GRINSA à l’UCA ?",
+        "Quel est le rôle de GRINSA dans l'insertion professionnelle des lauréats ?",
+        "GRINSA emploi diplômés",
+        "Plateforme anciens étudiants",
+        "Offres travail lauréats"
+      ],
+      "responses": [
+        "La plateforme GRINSA (Groupe de Réflexion sur l’Insertion et la Nouvelle Stratégie des Anciens) centralise des offres d’emploi pour les diplômés de l’UCA.",
+        "GRINSA met en relation les lauréats avec des employeurs et facilite leur intégration dans le marché du travail."
+      ]
+    },
+    "partenariats_entreprises": {
+      "questions": [
+        "L’UCA collabore-t-elle avec des entreprises pour l’emploi ?",
+        "Y a-t-il des partenariats avec des organismes publics ou privés pour l’insertion des étudiants ?",
+        "L’Université travaille-t-elle avec l’ANAPEC ou d’autres agences ?",
+        "Partenariats entreprises UCA",
+        "ANAPEC collaboration",
+        "Liens université-entreprises"
+      ],
+      "responses": [
+        "L’UCA développe des partenariats avec des entreprises locales, nationales et internationales, ainsi qu’avec des organismes publics comme l’ANAPEC pour accompagner l’insertion professionnelle.",
+        "Des conventions sont régulièrement signées avec des employeurs pour faciliter le stage, l’embauche ou l’encadrement des projets de fin d’études."
+      ]
+    }
+  },
+  "restauration": {
+    "acces_ru": {
+      "questions": [
+        "Qui a droit au restaurant universitaire ?",
+        "L’accès au RU est-il réservé aux résidents ?",
+        "Tous les étudiants peuvent-ils manger au RU ?",
+        "Accès restaurant universitaire",
+        "Carte RU étudiants",
+        "Qui peut manger RU"
+      ],
+      "responses": [
+        "Le restaurant universitaire est accessible aux étudiants résidents ainsi qu’aux non-résidents titulaires d’une carte de restauration.",
+        "Tous les étudiants inscrits à l’UCA peuvent bénéficier du restaurant universitaire, sous réserve de disposer d’un ticket valide."
+      ]
+    },
+    "prix_repas": {
+      "questions": [
+        "Quel est le prix d’un repas au RU ?",
+        "Combien coûte un ticket de repas universitaire ?",
+        "Quel est le tarif pour manger au restaurant de l’université ?",
+        "Prix repas RU",
+        "Coût ticket restaurant",
+        "Tarif subventionné repas"
+      ],
+      "responses": [
+        "Le ticket de repas coûte 1,40 DH. Il donne droit à un repas complet au restaurant universitaire.",
+        "Un ticket de restauration est vendu au tarif subventionné de 1,40 dirham, valable pour un seul repas."
+      ]
+    },
+    "achat_tickets": {
+      "questions": [
+        "Où acheter les tickets de restauration ?",
+        "Comment obtenir un ticket pour manger au RU ?",
+        "Où se procurer un ticket de repas étudiant ?",
+        "Acheter tickets RU",
+        "Points vente repas",
+        "Guichets restaurant universitaire"
+      ],
+      "responses": [
+        "Les tickets sont disponibles aux guichets du restaurant universitaire sur chaque campus.",
+        "Les étudiants peuvent acheter leurs tickets directement sur place, auprès des guichets du RU."
+      ]
+    },
+    "horaires_ouverture": {
+      "questions": [
+        "Quels sont les horaires du restaurant universitaire ?",
+        "Le RU est-il ouvert le week-end ?",
+        "À quels moments de la journée peut-on y manger ?",
+        "Horaires RU campus",
+        "Ouverture restaurant universitaire",
+        "Créneaux repas étudiants"
+      ],
+      "responses": [
+        "Le restaurant universitaire est ouvert tous les jours sauf le dimanche, selon des horaires fixes pour le déjeuner et le dîner.",
+        "Les repas sont servis selon des créneaux définis, généralement à midi et en soirée."
+      ]
+    },
+    "autres_options": {
+      "questions": [
+        "Existe-t-il d’autres lieux pour manger sur les campus ?",
+        "Y a-t-il des cafétérias ou des snacks à l’UCA ?",
+        "Quelles alternatives au RU sont disponibles ?",
+        "Alternatives RU",
+        "Cafétérias campus",
+        "Snacks UCA"
+      ],
+      "responses": [
+        "Des buvettes et cafétérias sont disponibles à proximité des amphithéâtres pour des repas rapides.",
+        "Chaque campus dispose de points de restauration supplémentaires pour offrir des options variées aux étudiants."
+      ]
+    }
+  },
+  "orientation": {
+    "cellule_info": {
+      "questions": [
+        "L’UCA propose-t-elle un service d’orientation ?",
+        "Existe-t-il une cellule d’information pour les nouveaux étudiants ?",
+        "Comment obtenir des conseils sur l’orientation à l’UCA ?",
+        "Orientation UCA contact",
+        "Cellule information étudiants UCA",
+        "Service orientation université Marrakech",
+        "Conseils orientation UCA",
+        "Info orientation nouveaux étudiants"
+      ],
+      "responses": [
+        "L’UCA dispose d’une cellule d’information et d’orientation qui aide les étudiants à s’informer sur les formations et les débouchés.",
+        "Ce service est destiné à guider les étudiants dans leur choix de filières en fonction de leurs profils et objectifs."
+      ]
+    },
+    "ressources_orientation": {
+      "questions": [
+        "Quelles ressources sont proposées pour s’orienter à l’université ?",
+        "Peut-on consulter des fiches sur les filières ?",
+        "Quels outils aident à choisir son parcours ?",
+        "Brochures orientation UCA",
+        "Guides formations UCA",
+        "Fiches filières UCA",
+        "Outils orientation étudiants",
+        "Ressources choix parcours universitaire"
+      ],
+      "responses": [
+        "Des brochures, guides et documents en ligne sont disponibles pour découvrir les différentes formations proposées.",
+        "L’espace Orientation fournit également des descriptions des filières, leurs prérequis, et les débouchés associés."
+      ]
+    },
+    "evenements_orientation": {
+      "questions": [
+        "L’UCA organise-t-elle des journées d’orientation ?",
+        "Y a-t-il des événements pour les futurs étudiants ?",
+        "Les lycéens peuvent-ils visiter l’UCA ?",
+        "Journées orientation UCA",
+        "Événements futurs étudiants UCA",
+        "Portes ouvertes UCA",
+        "Visites lycée UCA",
+        "Conférences orientation étudiants"
+      ],
+      "responses": [
+        "Oui, des journées d’orientation et d’intégration sont régulièrement organisées pour permettre aux bacheliers de découvrir les formations de l’UCA.",
+        "Ces journées incluent des conférences, des stands d’information et des rencontres avec les enseignants."
+      ]
+    },
+    "contact_orientation": {
+      "questions": [
+        "À qui s’adresser pour poser des questions sur l’orientation ?",
+        "Comment contacter le service orientation de l’UCA ?",
+        "Y a-t-il un point d’accueil pour les étudiants ?",
+        "Contact service orientation UCA",
+        "Numéro téléphone orientation UCA",
+        "Email cellule orientation UCA",
+        "Accueil étudiants UCA orientation",
+        "Point contact orientation étudiants"
+      ],
+      "responses": [
+        "Les étudiants peuvent contacter la cellule d’orientation ou le service de scolarité de leur faculté pour toute question.",
+        "Un espace Accueil-Orientation est disponible dans chaque établissement pour accompagner les nouveaux arrivants."
+      ]
+    }
+  },
+  "logement_universitaire": {
+    "logement_candidature": {
+      "questions": [
+        "Comment postuler pour obtenir un logement universitaire à l’UCA ?",
+        "Quelles sont les étapes pour faire une demande de logement en cité universitaire ?",
+        "Comment faire sa candidature pour un logement étudiant à l’UCA ?",
+        "Inscription logement universitaire UCA",
+        "Candidature cité universitaire Marrakech",
+        "Demande logement étudiant UCA",
+        "Dossier logement étudiant Maroc",
+        "logement.onousc.ma inscription"
+      ],
+      "responses": [
+        "Chaque année, l’UCA ouvre une période de candidature pour les cités universitaires. L’inscription se fait en ligne via le site logement.onousc.ma, où les étudiants doivent remplir un formulaire et déposer les pièces demandées.",
+        "Les demandes de logement universitaire doivent être effectuées pendant les dates annoncées par l’université. Un appel à candidatures est publié sur le site UCA et les réseaux officiels."
+      ]
+    },
+    "cites_disponibles": {
+      "questions": [
+        "Quelles cités universitaires sont disponibles à l’UCA ?",
+        "Quels sont les logements étudiants proposés par l’UCA ?",
+        "Y a-t-il plusieurs résidences étudiantes à Marrakech ?",
+        "Cités universitaires disponibles Marrakech",
+        "Résidences étudiantes UCA",
+        "Logements étudiants proposés UCA",
+        "Cités UCA Maroc",
+        "Disponibilité cité universitaire Marrakech"
+      ],
+      "responses": [
+        "À Marrakech, plusieurs cités universitaires sont disponibles, gérées par l’ONOUSC. Elles accueillent les étudiants en fonction de critères sociaux et académiques.",
+        "Les résidences universitaires proposées par l’UCA sont accessibles via la plateforme ONOUSC. Les conditions d’admission, le coût et la localisation sont détaillés dans les appels à candidatures."
+      ]
+    }
+  },
+  "contacts_utiles": {
+    "contacts_generaux": {
+      "questions": [
+        "Comment contacter l'administration centrale de l'UCA ?",
+        "Quelle est l'adresse de la présidence de l’UCA ?",
+        "Quel est le numéro de téléphone du siège de l’UCA ?",
+        "Contact administration UCA",
+        "Adresse présidence UCA Marrakech",
+        "Numéro téléphone UCA siège",
+        "Email université Cadi Ayyad",
+        "Coordonnées UCA"
+      ],
+      "responses": [
+        "La présidence de l’Université Cadi Ayyad se trouve à Marrakech (Av. Abdelkrim Khattabi, B.P. 511). Vous pouvez les contacter par email à presidence@uca.ac.ma ou par téléphone au +212 5 24 43 77 41.",
+        "Pour toute question générale, contactez le secrétariat central ou consultez la page « Nous contacter » sur uca.ac.ma."
+      ]
+    },
+    "contacts_facultes": {
+      "questions": [
+        "Comment trouver les coordonnées d’une faculté de l’UCA ?",
+        "Où obtenir le contact de la FSJES ou d’une autre école à l’UCA ?",
+        "Comment contacter un service spécifique (scolarité, bibliothèque...) ?",
+        "Contact facultés UCA",
+        "Coordonnées FSJES UCA",
+        "Email école UCA",
+        "Contact scolarité UCA",
+        "Téléphone faculté sciences UCA"
+      ],
+      "responses": [
+        "Le site officiel de l’UCA propose un annuaire avec les coordonnées des facultés, écoles et services. Par exemple, la FSJES Marrakech peut être contactée à contact.fsjes@uca.ac.ma.",
+        "Pour les contacts spécifiques (scolarité, orientation, bibliothèque...), consultez les pages dédiées de chaque établissement sur uca.ac.ma."
+      ]
+    }
+  },
+  "bibliotheque": {
+    "ressources_numeriques": {
+      "questions": [
+        "Quelles ressources numériques sont accessibles via la bibliothèque UCA ?",
+        "Peut-on consulter des bases de données scientifiques depuis l’université ?",
+        "Quelles revues ou ouvrages en ligne sont disponibles ?",
+        "Bases données scientifiques UCA",
+        "Ressources numériques bibliothèque UCA",
+        "Accès revues en ligne UCA",
+        "Ebooks bibliothèque universitaire",
+        "Accès numérique bibliothèque UCA"
+      ],
+      "responses": [
+        "La bibliothèque donne accès à des bases de données scientifiques, revues numériques, e-books et autres ressources académiques via le réseau universitaire.",
+        "Depuis les postes informatiques des campus, les étudiants peuvent accéder à une large gamme de ressources en ligne pour leurs travaux de recherche."
+      ]
+    },
+    "catalogue_en_ligne": {
+      "questions": [
+        "Existe-t-il un catalogue en ligne à la bibliothèque UCA ?",
+        "Comment rechercher un livre ou une revue à l’UCA ?",
+        "Peut-on consulter le fonds documentaire via internet ?",
+        "Catalogue bibliothèque UCA",
+        "Recherche livre bibliothèque en ligne",
+        "Portail documentaire UCA",
+        "Consulter catalogue livres UCA",
+        "Accès catalogue universitaire"
+      ],
+      "responses": [
+        "Oui, un catalogue en ligne permet de rechercher les ouvrages disponibles. Il est accessible depuis le site de l’université ou le portail documentaire de la bibliothèque.",
+        "Les étudiants peuvent consulter ce catalogue pour savoir si un document est disponible, ainsi que son emplacement dans les rayons."
+      ]
+    },
+    "recherche_documentaire": {
+      "questions": [
+        "Quels services d’aide à la recherche propose la bibliothèque ?",
+        "Peut-on se faire accompagner pour chercher des documents ?",
+        "La bibliothèque offre-t-elle un soutien à la recherche académique ?",
+        "Ateliers recherche documentaire UCA",
+        "Assistance recherche bibliothèque UCA",
+        "Aide utilisation sources académiques",
+        "Formation recherche documentaire étudiants",
+        "Support recherche académique UCA"
+      ],
+      "responses": [
+        "La bibliothèque organise des ateliers de formation à la recherche documentaire et propose une assistance personnalisée.",
+        "Des outils de recherche, des formations et un accompagnement sont proposés pour aider les étudiants à trouver et utiliser les sources pertinentes."
+      ]
+    },
+    "acces_google_scholar": {
+      "questions": [
+        "Peut-on accéder à Google Scholar depuis le réseau UCA ?",
+        "Y a-t-il un accès facilité à Google Scholar à l’université ?",
+        "Est-ce que Google Scholar est disponible sur les ordinateurs UCA ?",
+        "Google Scholar UCA accès",
+        "Accès académique Google Scholar université",
+        "Utiliser Google Scholar campus UCA",
+        "Moteur recherche académique UCA",
+        "Google Scholar réseau universitaire"
+      ],
+      "responses": [
+        "Oui, les postes informatiques de l’UCA permettent d’accéder à Google Scholar, en plus des bases de données partenaires.",
+        "Google Scholar et d'autres moteurs de recherche académiques sont accessibles librement depuis le réseau universitaire."
+      ]
+    }
+  },
+  "etablissements_uca": {
+    "ensa_marrakech": {
+      "questions": [
+        "ENSA Marrakech inscription",
+        "Comment m'inscrire à l'École Nationale des Sciences Appliquées de Marrakech ?",
+        "Adresse ENSA-M",
+        "Contact ENSA Marrakech",
+        "Formation ENSA Marrakech",
+        "Postuler ENSA UCA",
+        "ENSA-M",
+        "ENSA Marrakech site"
+      ],
+      "responses": [
+        "L'ENSA Marrakech est un établissement de l'UCA. Pour toute information (inscription, formations, contact), consultez son site officiel : https://yyy.uca.ma/ensam"
+      ]
+    },
+    "ensa_safi": {
+      "questions": [
+        "ENSA Safi inscription",
+        "Comment rejoindre l'École Nationale des Sciences Appliquées de Safi ?",
+        "Adresse ENSA Safi",
+        "ENSA-S contact",
+        "Formation ENSA Safi",
+        "Postuler ENSA Safi UCA"
+      ],
+      "responses": [
+        "L'ENSA Safi est un établissement de l'UCA. Toutes les infos (inscription, contact, formations) sont sur : https://ensas.uca.ma"
+      ]
+    },
+    "fssm_marrakech": {
+      "questions": [
+        "FSSM Marrakech inscription",
+        "Faculté des Sciences Semlalia adresse",
+        "Contact FSSM UCA",
+        "Formation FSSM",
+        "Postuler FSSM"
+      ],
+      "responses": [
+        "La FSSM (Faculté des Sciences Semlalia) fait partie de l'UCA. Pour l'inscription, formations ou contact, voir : https://yyy.uca.ma/fssm"
+      ]
+    },
+    "flsh_marrakech": {
+      "questions": [
+        "FLSH Marrakech inscription",
+        "Faculté Lettres Sciences Humaines adresse",
+        "Contact FLSH UCA",
+        "Formation FLSH",
+        "Postuler FLSH"
+      ],
+      "responses": [
+        "La FLSH (Faculté des Lettres & Sciences Humaines) est un établissement de l'UCA : site officiel https://yyy.uca.ma/flshm"
+      ]
+    },
+    "flam_marrakech": {
+      "questions": [
+        "FLAM Marrakech inscription",
+        "Faculté Langue Arabe adresse FLAM",
+        "Contact FLAM UCA",
+        "Formation FLAM",
+        "Postuler FLAM"
+      ],
+      "responses": [
+        "La FLAM (Faculté de Langue Arabe) est un établissement de l'UCA. Consultez son site : https://yyy.uca.ma/flam"
+      ]
+    },
+    "fsjes_marrakech": {
+      "questions": [
+        "FSJES Marrakech inscription",
+        "Faculté Sciences Juridiques Economiques Sociales adresse",
+        "Contact FSJES Marrakech",
+        "Formation FSJES",
+        "Postuler FSJES Marrakech"
+      ],
+      "responses": [
+        "La FSJES Marrakech est un établissement de l'UCA. Plus d'infos sur : https://yyy.uca.ma/fsjes"
+      ]
+    },
+    "fsjes_kelaa": {
+      "questions": [
+        "FSJES Kelaâ des Sraghna inscription",
+        "Faculté FSJES Kelâa adresse",
+        "Contact FSJES Kelâa",
+        "Formation FSJES Kelâa",
+        "Postuler FSJES Kelaa"
+      ],
+      "responses": [
+        "La FSJES de Kelaâ des Sraghna fait partie de l'UCA. Consultez : https://www.uca.ma/cuks"
+      ]
+    },
+    "fst_marrakech": {
+      "questions": [
+        "FST Marrakech inscription",
+        "Faculté Sciences et Techniques adresse",
+        "Contact FST Marrakech",
+        "Formation FST",
+        "Postuler FST Marrakech"
+      ],
+      "responses": [
+        "La FST (Faculté des Sciences et Techniques) est un établissement de l'UCA : site officiel https://yyy.uca.ma/fstgm"
+      ]
+    },
+    "fmpm_marrakech": {
+      "questions": [
+        "FMPM Marrakech inscription",
+        "Faculté Médécine Pharmacie adresse",
+        "Contact FMPM UCA",
+        "Formation médecine pharmacie",
+        "Postuler FMPM"
+      ],
+      "responses": [
+        "La FMPM (Faculté de Médecine & Pharmacie) est un établissement de l'UCA. Infos sur : https://yyy.uca.ma/fmpm"
+      ]
+    },
+    "encg_marrakech": {
+      "questions": [
+        "ENCG Marrakech inscription",
+        "École Nationale de Commerce & Gestion adresse",
+        "Contact ENCG UCA",
+        "Formation ENCG",
+        "Postuler ENCG Marrakech"
+      ],
+      "responses": [
+        "L'ENCG Marrakech est un établissement de l'UCA : https://yyy.uca.ma/encg"
+      ]
+    },
+    "ens_marrakech": {
+      "questions": [
+        "ENS Marrakech inscription",
+        "École Normale Supérieure adresse",
+        "Contact ENS UCA",
+        "Formation ENS",
+        "Postuler ENS Marrakech"
+      ],
+      "responses": [
+        "L'ENS (École Normale Supérieure) de Marrakech est un établissement de l'UCA. Voir : https://yyy.uca.ma/ens"
+      ]
+    },
+    "ests_safi": {
+      "questions": [
+        "EST Safi inscription",
+        "École Supérieure de Technologie Safi adresse",
+        "Contact ESTS Safi",
+        "Formation EST Safi",
+        "Postuler EST Safi"
+      ],
+      "responses": [
+        "L'EST Safi est un établissement de l'UCA. Toutes les infos ici : https://www.ests.uca.ma"
+      ]
+    },
+    "este_essaouira": {
+      "questions": [
+        "EST Essaouira inscription",
+        "École Supérieure de Technologie Essaouira adresse",
+        "Contact ESTE UCA",
+        "Formation ESTE",
+        "Postuler ESTE Essaouira"
+      ],
+      "responses": [
+        "L'EST Essaouira est un établissement de l'UCA. Consultez son site : https://yyy.uca.ma/este"
+      ]
+    },
+    "estk_kelaa": {
+      "questions": [
+        "EST Kelaâ inscription",
+        "École Supérieure de Technologie Kelaa adresse",
+        "Contact ESTK UCA",
+        "Formation ESTK",
+        "Postuler ESTK"
+      ],
+      "responses": [
+        "L'EST Kelaâ des Sraghna est un établissement de l'UCA : https://yyy.uca.ma/estk"
+      ]
+    },
+    "fps_safi": {
+      "questions": [
+        "FPS Safi inscription",
+        "Faculté Polydisciplinaire Safi adresse",
+        "Contact FPS UCA",
+        "Formation FPS Safi",
+        "Postuler FPS"
+      ],
+      "responses": [
+        "La FPS (Faculté Polydisciplinaire de Safi) est un établissement de l'UCA : https://yyy.uca.ma/fps"
+      ]
+    },
+    "cims_marrakech": {
+      "questions": [
+        "CIM Marrakech inscription",
+        "Cité de l'Innovation adresse CIM",
+        "Contact CIM",
+        "Formation CIM",
+        "Postuler CIM UCA"
+      ],
+      "responses": [
+        "La CIM (Cité de l'Innovation) est un établissement de l'UCA : https://yyy.uca.ma/cip"
+      ]
+    }
+  }
+}

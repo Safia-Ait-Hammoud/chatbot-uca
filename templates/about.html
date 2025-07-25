@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>À propos – Chatbot UCA</title> 
+</head>
+
+<body>
+  {% include "header.html" %}
+  <div class="container">
+    <h1>À propos du Chatbot de l'Université Cadi Ayyad</h1>
+    <p>
+      Le chatbot de l’Université Cadi Ayyad est un assistant virtuel intelligent conçu pour accompagner les étudiants dans leur parcours universitaire en leur fournissant des réponses rapides, claires et fiables aux questions fréquentes.
+    </p>
+    <p>
+      Cet outil interactif a été développé pour simplifier l’accès à l’information sur les différents services, démarches et ressources de l’université. Il couvre plusieurs thématiques essentielles telles que :
+    </p>
+
+    <ul>
+      <li>Les formations proposées (licence, master, doctorat, filières, conditions d’accès, etc.)</li>
+      <li>Les bourses et aides financières disponibles</li>
+      <li>La mobilité internationale et les échanges (Erasmus, partenariats...)</li>
+      <li>La vie étudiante (clubs, services, logement, restauration)</li>
+      <li>Les démarches administratives (inscriptions, réinscriptions, examens)</li>
+      <li>Les plateformes numériques (ENT, messagerie, etc.)</li>
+    </ul>
+
+    <p>
+      Accessible 24h/24 et 7j/7, le chatbot permet aux étudiants d’obtenir instantanément des réponses aux questions qu’ils se posent, sans avoir à se déplacer ou à attendre les heures d’ouverture.
+    </p>
+    
+  </div>
+</body>
+</html>

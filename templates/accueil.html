@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCAGuide - Assistant Intelligent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    {% include "header.html" %}
+<!-- Hero Section -->
+    <section class="hero-section">
+        <img src="{{ url_for('static', filename='images/presidence.jpg') }}" alt="Université Cadi Ayyad" class="hero-background-img">
+        <div class="hero-overlay-black"></div>
+        <div class="hero-content-surface">
+            <h1 class="hero-title">Université Cadi Ayyad</h1>
+            <h2 class="hero-subtitle">Innover, Apprendre, Rayonner </h2>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="main-content-area">
+        <!-- Right Section (Chat Interface) - Now on the left visually -->
+        <div class="section2">
+            <section class="right-section">
+                <div id="messages" class="messages">
+                    {% if history %} 
+                        {% for element in history %}
+                            <div class="user-message-wrapper">
+                                <img src="{{ url_for('static', filename='images/profile-user.png') }}" alt="Utilisateur" class="user-icon">
+                                <p class="user-message">  {{ element['question'] }}</p>
+                            </div>
+
+                            <div class="bot-message-wrapper">
+                                <img src="{{ url_for('static', filename='images/bot.png') }}"  alt="Bot" class="bot-icon">
+                                <p class="bot-message"> {{ element['reponse'] }}</p>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    
+
+                </div>
+                <form id="chat-form" action="{{ url_for('traitement') }}" method="POST" class="chat-input-form">
+                    <input type="text" id="question" name="question" placeholder="Écrivez votre question..." required>
+                    <button type="submit" class="send-btn" title="Envoyer">
+                        <img src="{{ url_for('static', filename='images/send.png') }}" alt="Envoyer" class="send-icon">
+                    </button>
+                </form>
+
+
+                
+            </section>
+        </div>
+
+        <!-- Left Section - Now on the right visually -->
+        <section class="left-section contact-form">
+            <div class="content-container">
+                <div class="trait-marocain"></div>
+                <h2 class="titre-section">Contact personnalisé</h2>
+                <p class="texte-section">
+                        Si votre demande dépasse les capacités du chatbot ou si vous ne trouvez pas de réponse satisfaisante,
+                        veuillez compléter ce formulaire. Notre équipe dédiée analysera votre requête avec attention et vous apportera une réponse personnalisée dans les meilleurs délais.
+                </p>
+                <a href="{{url_for('formulaire')}}" class="btn-maroc">Accéder au formulaire</a>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        document.getElementById('chat-form').addEventListener('submit', function(e) {
+            e.preventDefault(); // empêche le rechargement de la page
+        const question = document.getElementById('question').value;
+
+        fetch('/api_repondre', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ question: question })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const messagesDiv = document.getElementById('messages');
+
+        // Ajoute la question
+        messagesDiv.innerHTML += `
+            <div class="user-message-wrapper">
+                <img src="/static/images/profile-user.png" alt="Utilisateur" class="user-icon">
+                <p class="user-message">${question}</p>
+            </div>`;
+
+        // Ajoute la réponse
+        messagesDiv.innerHTML += `
+            <div class="bot-message-wrapper">
+                <img src="/static/images/bot.png" alt="Bot" class="bot-icon">
+                <p class="bot-message">${data.reponse}</p>
+            </div>`;
+
+        // Vide le champ
+        document.getElementById('question').value = '';
+        });
+    });
+</script>
+
+</body>
+
+
+   
+
+    
+
+    
+
+        
+
