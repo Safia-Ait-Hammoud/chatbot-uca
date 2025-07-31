@@ -31,7 +31,7 @@ for intent, contents in file.items():
            xy.append((qst, key)) # Keep original tokenized qst for bag_words input
 
 # Lemmatization et nettoyage
-all_words = [lemmatize(word.lower()) for word in all_words] # Changed stemming to lemmatize
+all_words = [lemmatize(word.lower()) for word in all_words] 
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
@@ -70,7 +70,7 @@ class chat_dataset(Dataset):
 # batch_size: Affects training stability and speed.
 batch_size = 12
 input_size = len(all_words)
-hidden_size = 256 # increasing this to 64 or 128 if needed
+hidden_size = 256 
 output_size = len(tags)
 learning_rate = 0.0005
 n_epoch = 1500 # Can be increased, but early stopping will prevent unnecessary training

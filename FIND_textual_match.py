@@ -32,7 +32,7 @@ def find_textual_match(user_input, qst_data):
                # Remove punctuation first, then stopwords, then lemmatize
                filtered_q = [word for word in tokenized_q if word not in ignore_punctuation]
                filtered_q = remove_stopwords(filtered_q) # Apply stop word removal
-               lemmatized_q = [lemmatize(word.lower()) for word in filtered_q] # Changed stemming to lemmatize
+               lemmatized_q = [lemmatize(word.lower()) for word in filtered_q] 
                all_questions_processed.append(' '.join(lemmatized_q)) # Join back for TF-IDF
                all_responses.append(random.choice(content['responses'])) # Store a random response directly
 
@@ -44,7 +44,7 @@ def find_textual_match(user_input, qst_data):
    tokenized_user_input = tokenize(user_input)
    filtered_user_input = [word for word in tokenized_user_input if word not in ignore_punctuation]
    filtered_user_input = remove_stopwords(filtered_user_input) # Apply stop word removal
-   lemmatized_user_input = [lemmatize(word.lower()) for word in filtered_user_input] # Changed stemming to lemmatize
+   lemmatized_user_input = [lemmatize(word.lower()) for word in filtered_user_input] 
    user_vector = vectorizer.transform([' '.join(lemmatized_user_input)])
    
    # Calcul de similarité cosinus
@@ -53,10 +53,9 @@ def find_textual_match(user_input, qst_data):
    best_score = similarities[0, best_match_idx]
 
    # Seuil de similarité pour le TF-IDF.
-   # Adjust this threshold based on testing.
    # A higher value means stricter matching (fewer fallbacks, but potentially more "I don't understand").
    # A lower value means looser matching (more fallbacks, but potentially less accurate ones).
-   if best_score > 0.45: # Slightly increased from 0.4 for a bit more strictness. Tune as needed.
+   if best_score > 0.45:  
        return all_responses[best_match_idx]
    
    return None

@@ -21,7 +21,7 @@
 
     <!-- Main Content Area -->
     <div class="main-content-area">
-        <!-- Right Section (Chat Interface) - Now on the left visually -->
+        <!-- Right Section (Chat Interface) -->
         <div class="section2">
             <section class="right-section">
                 <div id="messages" class="messages">
@@ -38,8 +38,6 @@
                             </div>
                         {% endfor %}
                     {% endif %}
-                    
-
                 </div>
                 <form id="chat-form" action="{{ url_for('traitement') }}" method="POST" class="chat-input-form">
                     <input type="text" id="question" name="question" placeholder="Écrivez votre question..." required>
@@ -47,12 +45,8 @@
                         <img src="{{ url_for('static', filename='images/send.png') }}" alt="Envoyer" class="send-icon">
                     </button>
                 </form>
-
-
-                
             </section>
         </div>
-
         <!-- Left Section - Now on the right visually -->
         <section class="left-section contact-form">
             <div class="content-container">
@@ -65,14 +59,11 @@
                 <a href="{{url_for('formulaire')}}" class="btn-maroc">Accéder au formulaire</a>
             </div>
         </section>
-
     </div>
-
     <script>
         document.getElementById('chat-form').addEventListener('submit', function(e) {
             e.preventDefault(); // empêche le rechargement de la page
         const question = document.getElementById('question').value;
-
         fetch('/api_repondre', {
             method: 'POST',
             headers: {
@@ -83,27 +74,23 @@
         .then(response => response.json())
         .then(data => {
             const messagesDiv = document.getElementById('messages');
-
         // Ajoute la question
         messagesDiv.innerHTML += `
             <div class="user-message-wrapper">
                 <img src="/static/images/profile-user.png" alt="Utilisateur" class="user-icon">
                 <p class="user-message">${question}</p>
             </div>`;
-
         // Ajoute la réponse
         messagesDiv.innerHTML += `
             <div class="bot-message-wrapper">
                 <img src="/static/images/bot.png" alt="Bot" class="bot-icon">
                 <p class="bot-message">${data.reponse}</p>
             </div>`;
-
         // Vide le champ
         document.getElementById('question').value = '';
         });
     });
 </script>
-
 </body>
 
 

@@ -11,7 +11,6 @@ with open('qst.json','r', encoding="utf-8") as f :
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the trained model and its parameters
-# IMPORTANT: You need to run `train.py` first to generate `best_model.pth`
 try:
     data=torch.load("best_model.pth")
     model_state=data["model_state"]
@@ -28,7 +27,6 @@ try:
     model.eval() # Set the model to evaluation mode
 except FileNotFoundError:
     print("Error: best_model.pth not found. Please run train.py first.")
-    # Fallback or exit strategy if model is not found
     model = None # Indicate that the model is not loaded
 
 def traitement(sentence):
@@ -55,7 +53,6 @@ def traitement(sentence):
             break
 
     # Confidence-based response strategy
-    # Adjust these thresholds based on your testing to balance accuracy and fallback behavior.
     if prob.item() < 0.50:  # Low confidence threshold: Fallback to textual match or generic response
         best_match = find_textual_match(sentence, qst)
         if best_match:

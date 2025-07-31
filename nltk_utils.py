@@ -3,7 +3,6 @@
 import nltk
 import numpy as np
 from nltk.tokenize import word_tokenize
-
 import spacy # Added spacy for lemmatization
 
 # Load the French spaCy model once
@@ -15,7 +14,6 @@ except OSError:
     print("Then restart your application.")
     nlp = None # Set nlp to None if model not found
 
-
 '''
 ###Télécharge les modules nécessaires UNE SEULE FOIS### 
 nltk.download('punkt')          # Tokenisation 
@@ -24,7 +22,6 @@ nltk.download('stopwords')      # Liste des stopwords
 nltk.download('averaged_perceptron_tagger')  # POS tagging
 nltk.download('omw-1.4')        # Support multilingue WordNet
 '''
-
 
 FRENCH_STOP_WORDS = set([
     "a", "à", "abord", "afin", "ah", "ai", "aie", "ainsi", "aller", "allo", "allons", "allô", "alors", "anc", "ancien", "ancienne", "après", "après-midi", "apres", "apres-midi", "approx", "approx.", "assez", "attendu", "au", "aucun", "aucune", "aujourd", "aujourd'hui", "aupres", "auquel", "aura", "aurai",
@@ -61,13 +58,9 @@ def lemmatize(word):
 def tokenize(sentence):
     return word_tokenize(sentence)  
 
-
-
-
 # Function to remove stop words
 def remove_stopwords(words):
     return [word for word in words if word.lower() not in FRENCH_STOP_WORDS]
-
 
 #représenter un texte sous forme numerique pour l'analyser après 
     """
@@ -81,11 +74,9 @@ def remove_stopwords(words):
 def bag_words(tokenized_sentence, words): 
    #tokenized_sentence= user's sentence tokenized
    # words= tous les mots des qsts dans ma BD prétraité
-   
    # Apply stop word removal before lemmatization for bag of words
    filtered_sentence = remove_stopwords(tokenized_sentence)
-   sentence = [lemmatize(word.lower()) for word in filtered_sentence] # Changed stemming to lemmatize
-   
+   sentence = [lemmatize(word.lower()) for word in filtered_sentence] 
    #transformer words en tableau numérique (à l'aide de numpy)
    bag = np.zeros(len(words), dtype=np.float32)   #tableaux inilialisé par 0 de taille nombre des elements de words 
    # lorsque un mot de sentence existe dans words on met 1 dans sa position dans bag
